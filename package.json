@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open",
-    "build": "ng build",
+    "start": "npx ng serve --open",
+    "build": "npx ng build",
     "watch": "ng build --watch --configuration development"
   },
   "dependencies": {
