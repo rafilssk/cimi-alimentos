@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "npx ng serve --open",
     "build": "npx ng build",
-    "watch": "ng build --watch --configuration development"
+    "watch": "npx ng build --watch --configuration development"
   },
   "dependencies": {
     "@angular/animations": "^17.3.0",
@@ -17,12 +17,12 @@
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
+    "@supabase/supabase-js": "^2.39.0",
     "chart.js": "^4.4.2",
     "ng2-charts": "^6.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.6.0",
-    "zone.js": "~0.14.4",
-    "@supabase/supabase-js": "^2.39.0"
+    "zone.js": "~0.14.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^17.3.0",
